@@ -10,7 +10,7 @@
     </properties>
 
     <groupId>com.example.tests</groupId>
-    <artifactId>demo</artifactId>
+    <artifactId>selenium-demo</artifactId>
     <version>1.0-SNAPSHOT</version>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/junit/junit -->

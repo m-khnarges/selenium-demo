@@ -13,6 +13,7 @@ public class Nasher {
 
   @Before
   public void setUp() {
+    System.setProperty("webdriver.chrome.driver", "/Users/narges/Downloads/chromedriver");
     driver = new ChromeDriver();
     baseUrl = "http://codal.ir/";
     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
